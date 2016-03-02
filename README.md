@@ -16,12 +16,15 @@ Install cucumber-js globally with:
 	$ sudo npm install -g cucumber
 
 Clone this repository
+
 	git clone https://github.com/mageddo/nodejs-cucumber-sample.git
 
 Then install all required dependencies with
+
 	npm install
 
 Finally see it working 
+
 	npm test
 
 After that you may use this project as a base of your development 
