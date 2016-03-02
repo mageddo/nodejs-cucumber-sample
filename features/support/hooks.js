@@ -12,7 +12,7 @@ module.exports = function() {
      *
      * @param  {Function} callback a done callback from cucumber.js
      */
-    this.Before(function(callback) {
+    this.Before(function(scenario, callback) {
 
         //don't forget to tell cucumber when your done
         callback();
@@ -25,7 +25,7 @@ module.exports = function() {
      *
      * @param  {Function} callback a done callback from cucumber.js
      */
-    this.After(function(callback) {
+    this.After(function(scenario, callback) {
 
         //don't forget to tell cucumber when your done
         callback();
